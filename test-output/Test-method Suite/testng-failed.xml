@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test-method Suite]" parallel="methods">
+  <test thread-count="2" name="Test-method test(failed)" parallel="methods">
+    <classes>
+      <class name="newAppium.Gestures">
+        <methods>
+          <include name="gestures"/>
+          <include name="browser"/>
+          <include name="startAppiumServer"/>
+          <include name="stopAppiumServer"/>
+        </methods>
+      </class> <!-- newAppium.Gestures -->
+    </classes>
+  </test> <!-- Test-method test(failed) -->
+</suite> <!-- Failed suite [Test-method Suite] -->
